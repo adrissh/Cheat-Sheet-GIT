@@ -1,0 +1,54 @@
+
+
+
+cek user & email -->git config --global --list
+git config --global user.name     ----->>> cek user
+git config --glbal user.email     ----->>> cek email
+
+
+remove user setting  
+git config --global --unset user.name    ------>>>    remove username 
+git config --global --unset user.email   ------>>>    remove userEmail
+git config --global --unset credential.helper  ------>>>  remove user&email
+
+
+Setup
+git config --global user.name "isi disinin"
+git config --global user.email "isi disini"
+
+SETUP*&INIT
+ git init  ------>>> menginisialisasi direktori yang ada sebagai repositori Git
+
+
+git status  ------>>>  file apa aja yng belum ke stage/simpan
+git add .    ------>>>>  memsukan file ke tahapan stage (.) maksud titik disini berarti semua
+git add ['nama file']   ------>>>   memasukan file tertentu ke stage
+git commit -m"perubahan1"   ------>>>  commit/simpan  -m=artinya Message     
+
+git log   ------>>>   melihat  perubahan di repository
+git log --oneline    ------>>>   melihat perubahan di repository ------> 
+
+git checkout ['isi dengan hash atau branch yg dituju']  ------>>> untuk berpindah dari branch 1 ke branch lain / untuk berpindah dari commit satu ke commit lain
+
+git checkout ['nama branch']   ------>>> berpindah branch
+git checkout ['hash commit']  ------>>>  berpindah commitan
+git checkout master ------>>>    berpindah ke awal lagi saay pindah2 commit
+git checkout -b ['nama branch]     ------>>> buat branch baru lalu  berpindah branch ke yg baru dibuat
+
+git restore --stage ['nama file'] ---->>>  cara unstage
+
+
+git log    ----->>>   meliat log commit
+git log --oneline ------>>>   melihat log commit satubaris supaya has nya pendek
+
+git diff    ----->> untuk melihat perubahan yg terjadi
+
+
+
+git branch ---->>> Melihat ada baranh apa saja 
+git branch ['nama branch']  ----->>> membuat branch 
+git branch -d ['nama branch'] ------>>> Menghapsu Branch
+
+git switch ['nama branch ']   ------>>> berpindah branch  ***command baru nihh
+
+git merge ['nama branch']    ------>>> Menggabungkan branch 
